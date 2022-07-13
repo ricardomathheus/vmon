@@ -32,8 +32,10 @@ main{
 
 .buttons div{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    gap: 5%;
+    gap: 1rem;
 }
 
 .buttons div a{
