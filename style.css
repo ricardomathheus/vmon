@@ -16,7 +16,6 @@ main{
     background-repeat: repeat;
     background-position: left;
     min-height: 100vh;
-    padding-bottom: 1rem;
     color: white;
 }
 
@@ -180,8 +179,9 @@ main{
 
 #informações #article-transporte-se .card{
     display: flex;
+    justify-content: center;
+    align-items: center;
     
-
     background-color: #ffffff38;
     padding: 1rem;
     border-radius: 0.3rem;
@@ -191,5 +191,14 @@ main{
 
 #informações #article-transporte-se .card-conteudo{
     margin: 1rem;
-    
+}
+
+@media screen and (max-width: 400px) {
+    #informações #article-transporte-se .card{
+        flex-wrap: wrap;
+    }
+}
+
+#final img{
+    width: 100%;
 }
