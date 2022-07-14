@@ -15,12 +15,14 @@ main{
     background-image: url(imagens/fundo2.jpg);
     background-repeat: repeat;
     background-position: left;
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 1rem;
     color: white;
 }
 
 #apresentação .apresentação{
     display: flex;
+    color: #e91e63;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -71,23 +73,72 @@ main{
     margin: 1rem;
 }
 
+#informações > h2{
+    color: #e91e63;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#informações article{
+    margin-bottom: 1rem;
+}
+
 #informações input{
-    
+    display: none;
+}
+
+
+#informações label{
+    display: block;
+    background-color: #ffffff38;
+    border-radius: 1rem;
 }
 
 #informações label h2{
     text-align: center;
     color: #6e8380;
     border-radius: 2rem;
-    margin-bottom: 1rem;
     background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+#informações label .conteudo{
+    text-shadow: 0px 0px 5px #00000099;
+
+    transition-property: max-height;
+    transition-duration: 0.5s;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#informações label .conteudo{
+    max-height: 0px;
+    overflow: hidden;
+}
+
+#informações input:checked + label h2{
+    margin-bottom: 1rem;
+}
+
+#informações input:checked + label .conteudo{
+    margin-bottom: 1rem;
+}
+
+#informações input:checked + label{
+    padding-bottom: 1rem;
+}
+
+#informações input:checked + label .conteudo{  
+    max-height: 100rem;
+}
+
+/*Código antigo do painel
 #informações label {
     display: block;
     border-radius: 1rem;
-/*     padding-bottom: 1rem;
- */    background-color: rgba(255, 255, 255, 0.219);
+     background-color: rgba(255, 255, 255, 0.219);
 }
 
 #informações label p{
@@ -118,3 +169,4 @@ main{
     padding-bottom: 1rem;
     max-height: 50rem;
 }
+ */
