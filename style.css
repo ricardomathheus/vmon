@@ -169,4 +169,27 @@ main{
     padding-bottom: 1rem;
     max-height: 50rem;
 }
- */
+*/
+
+#informações #article-transporte-se .conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#informações #article-transporte-se .card{
+    display: flex;
+    
+
+    background-color: #ffffff38;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    margin: 1rem;
+    max-width: 350px;
+}
+
+#informações #article-transporte-se .card-conteudo{
+    margin: 1rem;
+    
+}
