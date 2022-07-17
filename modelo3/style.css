@@ -7,8 +7,13 @@ body{
     background-color: black;
     color: #c8992b;
 }
+
 body p {
     color: white;
+}
+
+body h2{
+    text-align: center;
 }
 
 main{
@@ -163,6 +168,41 @@ main{
     #informações #article-transporte-se .card{
         flex-wrap: wrap;
     }
+}
+
+#SND {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#SND article{
+    margin: 1rem;
+    background-color: #ffffff38;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 1000px;
+}
+
+#SND article p{
+    margin: 1rem;
+}
+
+#SND .botões{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SND .botões a{
+    color: #009ff9;
+    margin-left: 1rem;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #ffffff1a;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 #final img{
