@@ -167,6 +167,7 @@ main{
 @media screen and (max-width: 400px) {
     #informações #article-transporte-se .card{
         flex-wrap: wrap;
+        max-width: 70%;
     }
 }
 
