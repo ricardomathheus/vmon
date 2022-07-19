@@ -39,6 +39,23 @@ main{
     max-width: 1000px;
 }
 
+.section-card-link ul{
+    list-style: none;
+    margin: 1rem;
+}
+
+.section-card-link li{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.082);
+}
+
+.section-card-link a{
+    text-decoration: none;
+    color: var(--link-color);
+}
+
 #apresentação .apresentação{
     display: flex;
     color: #e91e63;
@@ -193,23 +210,6 @@ main{
 #AULAS-DE-GRAMÁTICA h2 span{
     display: block;
     font-size: 0.5em;
-}
-
-#AULAS-DE-GRAMÁTICA ul{
-    list-style: none;
-    margin: 1rem;
-}
-
-#AULAS-DE-GRAMÁTICA li{
-    padding: 0.5rem;
-    margin: 0.5rem;
-    border-radius: 1rem;
-    background-color: rgba(255, 255, 255, 0.082);
-}
-
-#AULAS-DE-GRAMÁTICA a{
-    text-decoration: none;
-    color: var(--link-color);
 }
 
 #BÍBLIA-ONLINE article{
