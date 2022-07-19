@@ -211,24 +211,7 @@ main{
     text-decoration: none;
     color: var(--link-color);
 }
-
-#BÍBLIA-ONLINE article{
-    background-color: black;
-    border: 0.2rem solid #ffffff38;
-}
-
-#BÍBLIA-ONLINE h2{
-    margin: 1rem;
-}
-
-#BÍBLIA-ONLINE img{
-    max-width: 100%;
-}
-
-#BÍBLIA-ONLINE a{
-    color: #c8992b;
-    text-decoration: none;
-}
+    
 
 #SND article p{
     margin: 1rem;
