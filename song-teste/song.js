@@ -14,9 +14,21 @@ function choseRamdomAudio() {
     return audios[index]
 }
 
-window.onpointerdown = () => {
+function playRamdomAudio() {
     const audio = choseRamdomAudio()
     if (audio) audio.play()
+}
 
+
+// ll mudar para point event
+window.onclick = () => {
+    console.log('onpointerdown')
+    playRamdomAudio()
     window.onpointerdown = undefined
+}
+
+window.ontouchmove = () => {
+    console.log('ontouchend')
+    playRamdomAudio()
+    window.ontouchend = undefined
 }
