@@ -30,5 +30,5 @@ window.onclick = () => {
 window.ontouchmove = () => {
     console.log('ontouchend')
     playRamdomAudio()
-    window.ontouchend = undefined
+    window.ontouchmove = undefined
 }
