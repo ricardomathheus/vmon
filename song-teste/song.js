@@ -20,15 +20,15 @@ function playRamdomAudio() {
 }
 
 
-// ll mudar para point event
+// -ll mudar para point event
 window.onclick = () => {
-    console.log('onpointerdown')
+    console.log('play- onclick')
     playRamdomAudio()
-    window.onpointerdown = undefined
+    window.onclick = undefined
 }
 
 window.ontouchmove = () => {
-    console.log('ontouchend')
+    console.log('play- ontouchmove')
     playRamdomAudio()
     window.ontouchmove = undefined
 }
